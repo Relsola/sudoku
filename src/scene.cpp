@@ -12,9 +12,9 @@
 
 #include "color.hpp"
 #include "common.hpp"
+#include "common/utility.inl"
 #include "display_symbol.hpp"
 #include "i18n.hpp"
-#include "utility.inl"
 
 CScene::CScene(int index) : _max_column(pow(index, 2)), _cur_point({0, 0}) {
   init();

@@ -1,11 +1,11 @@
 #include <cstring>
 #include <iostream>
 
+#include "common/utility.inl"
 #include "i18n.hpp"
 #include "input.hpp"
 #include "scene.hpp"
 #include "system_env.hpp"
-#include "utility.inl"
 
 static void printHelp() {
   using std::cout;

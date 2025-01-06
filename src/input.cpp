@@ -2,8 +2,8 @@
 #include <string>
 
 #include "common.hpp"
+#include "common/utility.inl"
 #include "i18n.hpp"
-#include "utility.inl"
 
 // return number of grids to be erased
 int inputDifficulty() {
